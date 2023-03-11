@@ -1,0 +1,70 @@
+*{/*Este es el selector universal , esto va a selecionar todos los elementos*/
+   
+    background: #ffffff;
+}
+/*
+SELECTORES SIMPLES
+    selectores elemantares
+        nombre de la etiqueta
+        * Selector Universal
+    
+    selectores de Atributo
+    ID -> ID del elemento
+    Clase-> Clase del elemento
+    [atributo]
+
+SELECTORS COMPUESTOS
+    selectores Agrupados 
+    selectores Combinadores
+    Pseudoclases-Pseudoelementos 
+*/
+/*
+h1{Este es un selector especifico selecciona solamente el elemento h1
+    background: #d4bac3;
+}
+p{
+    background: #d4bac3;
+  
+}
+*/
+/*selectores Atributos*/
+[href]{
+    background: #ba55d3;
+}
+[href="https://www.google.com/"]{
+    background: #ffff00;
+}
+[href^=color]{/*Asi se selecciona la que comienza con la palabra color*/
+    background: #a1e41c;
+}
+[href*=modo]{/*Aqui da igual donde este la palabra modo*/
+background: #FF0000;
+}
+[href$=rojo]{/*Aqui se selecciona unicamente el que termina con la palabra rojo*/
+    background:linear-gradient(45deg,#00ffae, #ba55d3 ) ;
+
+}
+/*Selectores Agrupados*/
+/*
+.text,
+.text-2,
+.text-3,
+.text-4{
+    background: #4682b4;
+}
+*/
+/* selectores Combinadores*/
+
+/* selector hermanos */
+
+/* .text-2 + .title-2{    Selecciona al hermano siguiente    */
+    /* background: linear-gradient(45deg, #087472 , #ffff00);} */
+
+/* .text-2 ~ p{ */
+    /* background: #ffff00;} */
+
+/* selector hijo */
+
+.container  p{
+    background: #FF0000;
+}
